@@ -1,0 +1,26 @@
+.pin {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .pin:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pin-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pin h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
